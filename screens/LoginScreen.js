@@ -34,7 +34,7 @@ function LoginScreen({ navigation }) {
         onChangeText={setPassword}
         secureTextEntry
       />
-      <Button title="Login" onPress={handleLogin} />
+      <Button title="kenneth" onPress={handleLogin} />
       <TouchableOpacity onPress={() => navigation.navigate('Registration')}>
         <Text style={styles.registrationLink}>Don't have an account? Register</Text>
       </TouchableOpacity>
